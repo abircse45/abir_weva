@@ -88,41 +88,17 @@ class _ServicePageProviderState extends State<ServicePageProvider> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.start,
                               children: [
-                                Padding(
-                                  padding: const EdgeInsets.only(right: 188.0),
-                                  child: Text("Hello Kitty Beauty Spa"),
-                                ),
                                 Row(
                                   children: [
-                                    // Padding(
-                                    //   padding:
-                                    //       const EdgeInsets.only(right: 130.0),
-                                    //   child: RatingBar.builder(
-                                    //     initialRating: 3,
-                                    //     minRating: 1,
-                                    //     direction: Axis.horizontal,
-                                    //     allowHalfRating: true,
-                                    //     itemCount: 5,
-                                    //     itemSize: 15,
-                                    //     itemPadding: EdgeInsets.symmetric(
-                                    //         horizontal: 4.0),
-                                    //     itemBuilder: (context, _) => Icon(
-                                    //       Icons.star,
-                                    //       color: Colors.green,
-                                    //     ),
-                                    //     onRatingUpdate: (rating) {
-                                    //       print(rating);
-                                    //     },
-                                    //   ),
-                                    // ),
-                                    IconButton(
-                                        icon: Icon(Icons.add_location),
-                                        onPressed: () {}),
-                                    IconButton(
-                                        icon: Icon(Icons.favorite),
-                                        onPressed: () {}),
+                                    Padding(
+                                      padding: const EdgeInsets.only(right: 138.0),
+                                      child: Text("Hello Kitty Beauty Spa"),
+                                    ),
+                                          Icon(Icons.add_location),
+                           Icon(Icons.favorite),
                                   ],
                                 ),
+                            
                               ],
                             ),
                           ),
